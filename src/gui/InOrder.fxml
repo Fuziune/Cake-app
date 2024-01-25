@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="Back" layoutX="451.0" layoutY="320.0" mnemonicParsing="false" onAction="#BackGo" prefHeight="47.0" prefWidth="82.0" text="Go back" />
+      <ButtonBar layoutX="84.0" layoutY="84.0" prefHeight="93.0" prefWidth="397.0">
+         <buttons>
+            <Button fx:id="CreateOrder" mnemonicParsing="false" onAction="#CreateComanda" prefHeight="40.0" prefWidth="117.0" text="Create" />
+            <Button fx:id="UpdateOrder" mnemonicParsing="false" onAction="#UpdateComanda" prefHeight="37.0" text="Update" />
+            <Button fx:id="DeleteOrder" mnemonicParsing="false" onAction="#DeleteComanda" prefHeight="34.0" text="Delete" />
+            <Button fx:id="ReadOrder" mnemonicParsing="false" onAction="#ReadComanda" prefHeight="36.0" text="Read" />
+         </buttons>
+      </ButtonBar>
+      <Button fx:id="Report" layoutX="257.0" layoutY="177.0" mnemonicParsing="false" onAction="#GoReports" prefHeight="47.0" prefWidth="87.0" text="Report" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,1 @@
+1,Order,2020-01-08,[Cake{id=1, flavor='chocolate', size='large', price=200.0}, Cake{id=2, flavor='banana', size='medium', price=120.0}]
